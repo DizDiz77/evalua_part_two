@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J_part_two</title>
+    <link rel="stylesheet" href="assets/scss/proyecto.css"> 
+    <link rel="stylesheet" href="assets/css/styls.css">
+</head>
+
+
+
+
+
+
+  <!-- INPUTS TITULO Y DECRIPCION -->
+
+
+  <form class="my-5">
+    <label for="datTitulo" class="mb-2">Titulo</label>
+    <input id="datInfo" class="form-control mb-4">
+    
+  </form>
+  <form class="my-5">
+    <label for="datD" class="mb-2">Descripcion</label>
+    <input id="datInfo" class="form-control mb-4">
+    <button type="button" class="btn btn-primary" id="cambioRelevante">Subir cambio</button>
+  </form>
+
+  
+
+
+
+  <div class="centrar">
+    <!-- CUADRADO -->
+
+  <div class="container">
+    <div class="cuadrado">
+      <div class="div-alert">
+        <button class="boton_alerta" onclick="mostrarAlerta()"> Alerta</button> <!--+  ALERT +-->
+      </div>
+    </div>
+      <div class="cuadrado"><button type="button" class="boton_estilo" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="Saludame soy un POPOver">Popover</button></div><!--+ POPOVER + -->
+  </div>
+  <div class="container">
+    <div class="cuadrado"><button type="button" class="boton_estilo" id="liveToastBtn">Toasts</button></div> <!--+  TOAST +-->
+    <div class="cuadrado"> <button class="boton_estilo "type="button" data-bs-toggle="offcanvas" data-bs-target="#miOffcanvas" aria-controls="miOffcanvas">Offcanvas</button></div> <!--+ Offcanvas +-->
+  </div>
+      
+      
+     
+
+
+        
+      
+      
+      
+      
+              
+      
+      
+      <!--++++++++++++++++++++++++++++ TOASTS ++++++++++++++++++++++++++++ -->
+        
+     
+
+      <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <img src="..." class="rounded me-2" alt="...">
+            <strong class="me-auto">Bootstrap</strong>
+            <small>11 mins ago</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+            Holaa este es un TOASTS
+          </div>
+        </div>
+      </div>
+
+  
+  
+  
+  
+          
+  
+  
+        <!--++++++++++++++++++++++++++++  OFFCANVAS ++++++++++++++++++++++++++++ -->
+
+  
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="miOffcanvas" aria-labelledby="miOffcanvasLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="miOffcanvasLabel">Offcanvas</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+    </div>
+    <div class="offcanvas-body">
+      Hola soy un offcanvas.
+    </div>
+  </div>
+</div>
+
+
+<p>Ejercicio academico</p>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- LINK DE BOOSTRAP Y JS -->
+
+    <script src="assets/bootstrap-5.3.3/dist/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/script.js"></script>
+
+
+
+    <!-- +++++++++++++++++++++++++++++++ LLAMADO DE JS QUERY +++++++++++++++++++++++++++++++++-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
+
+
+  
