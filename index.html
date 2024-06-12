@@ -3,28 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>J_part_two</title>
+    <title>J_6_6</title>
     <link rel="stylesheet" href="assets/scss/proyecto.css"> 
     <link rel="stylesheet" href="assets/css/styls.css">
 </head>
+<body>
 
 
-
-
-
-
-  <!-- INPUTS TITULO Y DECRIPCION -->
-
-
-  <div class="contai">
-    <input type="text" id="titulo_contenido" placeholder="Titulo">
-  
-  <input type="text" id="descripcion_contenido" placeholder="Descripcion">
-    
-  <button onclick="realizarAccion()">Realizar acción</button>
-
-  </div>
-  
+  <h1>Hola soy una evaluacion</h1>
+  <h2>¿Emocionado?</h2>
+  <button type="submit">NOP</button>
+  <button type="submit">NO</button>
 
 
 
@@ -33,12 +22,11 @@
 
   <div class="container">
     <div class="cuadrado">
-      
-        <div id="liveAlertPlaceholder"></div>
-          <button type="button" class="boton_estilo" id="liveAlertBtn">Alert</button><!--+  ALERT +-->
-        </div>
-    
-        <div class="cuadrado"><button type="button" class="boton_estilo" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="Saludame soy un POPOver">Popover</button></div><!--+ POPOVER + -->
+      <div class="div-alert">
+        <button class="boton_alerta" onclick="mostrarAlerta()"> Alerta</button> <!--+  ALERT +-->
+      </div>
+    </div>
+      <div class="cuadrado"><button type="button" class="boton_estilo" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="Saludame soy un POPOver">Popover</button></div><!--+ POPOVER + -->
   </div>
   <div class="container">
     <div class="cuadrado"><button type="button" class="boton_estilo" id="liveToastBtn">Toasts</button></div> <!--+  TOAST +-->
